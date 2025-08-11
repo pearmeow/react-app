@@ -4,9 +4,11 @@ import Greeting from './Greeting.jsx';
 import { Food, Hate, Love } from './Food.jsx';
 import './index.css';
 import App from './App.jsx';
+import Test from './Test.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <Test />
     <Hate />
     <Food />
     <Love />
